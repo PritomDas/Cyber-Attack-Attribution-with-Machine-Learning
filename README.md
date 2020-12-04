@@ -95,6 +95,7 @@ The model was quite efficient with only three main features and 2862 malware sam
 
 ## Bibliography
 [1] Boot, Coen. Applying Supervised Learning on Malware Authorship Attribution. Diss.    Radboud University Nijmegen, 2019.
+
 [2] Aylin Caliskan, Fabian Yamaguchi, Edwin Dauber, Richard Harang, Konrad Rieck, Rachel Greenstadt, Arvind Narayanan “When Coding Style Survives Compilation: De-Anonymizing Programmers from Executable Binaries.” N.p., 2015. Web.
 https://arxiv.org/abs/1512.08546
 
@@ -102,7 +103,9 @@ https://arxiv.org/abs/1512.08546
 https://peerj.com/articles/cs-285/
 
 [4] Haddadpajouh, Hamed ; Azmoodeh, Amin ; Dehghantanha, Ali ; Parizi, Reza M. “MVFCC: A Multi-View Fuzzy Consensus Clustering Model for Malware Threat Attribution.” IEEE access 8 (2020): 139188–139198. Web.
+
 [5] Kaspersky, Eugene, et al. “The Power of Threat Attribution-Kaspersky Threat Attribution Engine” https://media.kaspersky.com/en/business-security/enterprise/threat-attribution-engine-whitepaper.pdf
+
 [6] Rosenberg, Ishai ; Sicard, Guillaume ; David, Eli “DeepAPT: Nation-State APT Attribution Using End-to-End Deep Neural Networks.” Artificial Neural Networks and Machine Learning – ICANN 2017 Lecture Notes in Computer Science, 2017, pp. 91–99., doi:10.1007/978-3-319-68612-7_11. 
 
 
