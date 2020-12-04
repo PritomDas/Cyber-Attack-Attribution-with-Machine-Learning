@@ -3,11 +3,11 @@
 <!-- PROJECT LOGO -->
 <br />
 
-<p align="left">
+<p align="center">
   <img src="./images/1.PNG" alt="Logo" width="100" height="100">
 </p>
 
-<p align="right">
+<p align="center">
   <img src="./images/2.jpg" alt="Logo" width="100" height="100">
 </p>
 > S3, EMR, Airflow, AWS, Data Pipelines, Data Engineering, ETL 
