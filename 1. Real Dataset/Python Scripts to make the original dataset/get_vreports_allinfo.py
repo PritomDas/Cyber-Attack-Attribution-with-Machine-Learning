@@ -5,7 +5,7 @@ import time
 import json
 
 url = 'https://www.virustotal.com/vtapi/v2/file/report'
-key = '6af0d3d539e40217dd327836db64c68d1464d5f5ebb05cc418b66d32f62802c5'
+key = ''
 
 links = {}
 
