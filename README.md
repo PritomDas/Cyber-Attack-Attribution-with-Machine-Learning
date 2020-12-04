@@ -8,7 +8,7 @@
 </p>
 
 <p align="right">
-  <img src="./images/2.PNG" alt="Logo" width="100" height="100">
+  <img src="./images/2.jpg" alt="Logo" width="100" height="100">
 </p>
 > S3, EMR, Airflow, AWS, Data Pipelines, Data Engineering, ETL 
 
