@@ -10,7 +10,8 @@
 <p align="center">
   <img src="./images/2.jpg" alt="Logo" width="200" height="150">
 </p>
-> Cyber Attack Attribution, Machine Learning, Random Forest Classifier, Malware Artifacts, Advanced Persistent Threats
+
+> Cyber Attack Attribution, Machine Learning, Random Forest Classifier, Malware Artifacts, APT
 
 
 
