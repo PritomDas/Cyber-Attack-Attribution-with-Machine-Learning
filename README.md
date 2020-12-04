@@ -4,7 +4,7 @@
 <br />
 
 <p align="center">
-  <img src="./'4. Images'/1.png" alt="Logo" width="100" height="100">
+  <img src="./images/1.png" alt="Logo" width="100" height="100">
  <h3 align="left">Data Pipelines with Airflow</h3>
 </p>
 
