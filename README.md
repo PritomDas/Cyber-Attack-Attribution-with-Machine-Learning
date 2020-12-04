@@ -1,4 +1,4 @@
-![Language](https://img.shields.io/badge/language-python--3.8.2-blue) [![LinkedIn][linkedin-shield]][linkedin-url]
+![Language](https://img.shields.io/badge/language-python--3.8.2-blue)
 
 <!-- PROJECT LOGO -->
 <br />
@@ -126,6 +126,7 @@ https://peerj.com/articles/cs-285/
 ## Contact
 
 Pritom Das Radheshyam - [Portfolio Website](https://pritom.uwu.ai/)
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
 
 
