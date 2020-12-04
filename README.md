@@ -62,9 +62,9 @@ Since we plan on doing static analysis, we needed to consider whether the malwar
 ![APT](./images/3.PNG)
 
 We have extracted the following attributes from the VirusTotal reports for each malware sample
-*pe-resource-langs
-*imports
-*pe-entry-points
+* pe-resource-langs
+* imports
+* pe-entry-points
 
 We created a python script that would extract the above attributes from each of the json malware report  files and consolidate it into one csv file.We created a CSV  file with the above three attributes , resource (i.e hash of the malware) and APT group columns which we fetched from the GitHub repository. Please see a snapshot of unprocessed dataset below.(Fig 2).
 
