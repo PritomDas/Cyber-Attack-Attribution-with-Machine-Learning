@@ -5,12 +5,10 @@
 
 <p align="left">
   <img src="./images/1.PNG" alt="Logo" width="100" height="100">
- <h3 align="center">Data Pipelines with Airflow</h3>
 </p>
 
 <p align="right">
   <img src="./images/2.PNG" alt="Logo" width="100" height="100">
- <h3 align="center">Data Pipelines with Airflow</h3>
 </p>
 > S3, EMR, Airflow, AWS, Data Pipelines, Data Engineering, ETL 
 
