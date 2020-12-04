@@ -50,15 +50,15 @@ Some major threat attribution techniques are (1)Timestamps:One major benefit of 
 There is a way to identify authors of a computer program based on their coding style: variable names, spacing, etc… It has been shown that source code can be attributed to authors with high accuracy, although attribution of executable binaries seem to be a lot more difficult. They used machine learning to find patterns and they decompiled the executable binary to source code. They evaluated their approach from data from Google Code Jam and had an attribution accuracy of up to 96%. This is preserved in the compilation process and this can be extracted from the executable binary. It may be possible to infer the  programers identity if we have a set of KNOWN potential candidate programmers, along with executable finary samples known to be authored by these candidates. This has a forensics application as they can consistently identify virtual personas and individual malicious cyber operators over time. We see hackers try to obscure their binaries so it cannot be traced back to them although we find that traditional binary obfuscation, enabling compiler optimizations, or stripping debugging symbols in executable binaries results in only a modest decrease in de-anonymization accuracy.We emphasize that research challenges remain before programmer de-anonymization from executable binaries is fully ready for practical use. For example, programs may be authored by multiple programmers and may have gone through encryption. They approach this problem using supervised machine learning, that is, we generate a classifier from training data of sample executable binaries with known authors. A drawback is that the method is inoperable if samples are not available or too short to represent authorial style.
 
 
-#### Song Dataset
+## Technical Approach
+First, our team identified a GitHub repository of pre-classified state sponsored malware that we will be using as our dataset. We then performed static analysis on the malware samples. We didn’t go for dynamic analysis since the setup of Cuckoo would take a lot of time and the accuracy of static analysis was very good. We didn’t use any specific environment for malware analysis, since we didn’t perform dynamic analysis and there was no need to execute the malware samples. We have generated the VirusTotal reports for the malware samples. We have fetched various attributes from the VirusTotal reports and use those attributes as inputs to our Random Forest Algorithm.
 
-Songs dataset is a subset of [Million Song Dataset](http://millionsongdataset.com/). Each file in the dataset is in JSON format and contains meta-data about a song and the artist of that song. The dataset is hosted at S3 bucket `s3://udacity-dend/song_data`.
+### Data Gathering
+As we mentioned in the initial project proposal, during our research we found a repository in Github ( https://github.com/cyber-research/APTMalware)  that contained about 4,500 country-sponsored malware samples [3] that we decided to use as our dataset. We also have access to the VirusTotal Developers API and have created a script that will send the hash value of all malware samples to the VirusTotal API and download the reports for all malwares as a json file.
 
-Sample Record :
+### Data Classification, Extraction, and Use
+Since we plan on doing static analysis, we needed to consider whether the malwares were packed or not. Packing is a form of code obfuscation that modifies the format of the malware by compressing or encrypting the data, so we would not be able to extract the artifacts we need without putting the malware through some type of unpacking software. Because of this, we used a tool called PEiD that can detect whether or not a malware sample is packed and classified all of our malware into either unpacked or packed categories. The number of packed and unpacked malwares per APT group are summarized in the table below (Fig 1). We have only used unpacked malware samples for attribution to APT Group. The number of unpacked malware samples are 3591.
 
-```
-{"num_songs": 1, "artist_id": "ARJIE2Y1187B994AB7", "artist_latitude": null, "artist_longitude": null, "artist_location": "", "artist_name": "Line Renaud", "song_id": "SOUPIRU12A6D4FA1E1", "title": "Der Kleine Dompfaff", "duration": 152.92036, "year": 0}
-```
 
 #### Log Dataset
 
