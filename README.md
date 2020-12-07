@@ -7,9 +7,6 @@
   <img src="./images/1.PNG" alt="Logo" width="100" height="100">
 </p>
 
-<p align="center">
-  <img src="./images/2.jpg" alt="Logo" width="200" height="150">
-</p>
 
 > Cyber Attack Attribution, Machine Learning, Random Forest Classifier, Malware Artifacts, APT
 
