@@ -134,6 +134,6 @@ Pritom Das Radheshyam - [Portfolio Website](https://pritom.uwu.ai/)
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/you-found-pritom
-[linkedin-url-dm]: https://www.linkedin.com/in/mehtadhruv212
+[linkedin-url-dm]: https://www.linkedin.com/in/dhruv-mehta212/
 [product-screenshot]: images/screenshot.jpg
 [Dhruv Mehta]: https://github.com/mehtadhruv1
