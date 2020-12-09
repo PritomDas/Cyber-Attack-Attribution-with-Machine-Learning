@@ -123,7 +123,9 @@ https://peerj.com/articles/cs-285/
 ## Contact
 
 Pritom Das Radheshyam - [Portfolio Website](https://pritom.uwu.ai/)
-[![LinkedIn][linkedin-shield]][linkedin-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]  
+[Dhruv Mehta] [![LinkedIn][linkedin-shield]][linkedin-url-dm]
+
 
 
 
@@ -132,4 +134,6 @@ Pritom Das Radheshyam - [Portfolio Website](https://pritom.uwu.ai/)
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/you-found-pritom
+[linkedin-url-dm]: https://www.linkedin.com/in/mehtadhruv212
 [product-screenshot]: images/screenshot.jpg
+[Dhruv Mehta]: https://github.com/mehtadhruv1
